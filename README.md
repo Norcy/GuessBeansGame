@@ -11,7 +11,7 @@ Client：
 ```sh
 cd client
 yarn
-yarn dev # 需要提前安装 vite
+yarn dev --host # 需要提前安装 vite
 ```
 
 Server：启动 php 服务，能正常访问 Guess.php 即可
@@ -20,10 +20,10 @@ Server：启动 php 服务，能正常访问 Guess.php 即可
 <img width="30%" src="asset/preview.jpg">
 
 ## 开发笔记
-1. 未处理多人并发
-2. 未实现公开在线部署
-3. 偶现对战时数据混乱
-4. 前端的跨域请求，只涉及到 Get 请求，最简单的用 `fetch-jsonp` 可解
++ 只是 Demo，很多细节尚未完善，比如只考虑了双人（重新开始的逻辑删除了数据库）、需要手动刷新（没有长连接或者轮询）等
++ 未实现公开在线部署
++ 偶现对战时数据混乱
++ 前端的跨域请求，只涉及到 Get 请求，最简单的用 `fetch-jsonp` 可解
 
 ## 灵感来源
 <img width="30%" src="asset/source.jpg">
