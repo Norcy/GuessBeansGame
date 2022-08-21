@@ -4,6 +4,9 @@
 ## 环境准备
 1. 安装 [Vite](https://cn.vitejs.dev/)，用于部署前端网页
 2. 准备好 php 和 mysql 环境，将 Guess.php 部署上去。测试时我使用的是 [MAMP](https://www.mamp.info/en/downloads/)
+3. 需要提前配好数据库，当然也可以优化为代码创建
+
+<img width="80%" src="asset/database.png">
 
 ## 启动服务
 Client：
